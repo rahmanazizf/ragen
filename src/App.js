@@ -39,7 +39,7 @@ function Content(props) {
     <div className="py-10 px-5 max-w-sm mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl shadow-xl flex items-center space-x-4 font-sans text-left">
       <AppIcon />
       <div className="items-center  hover:font-semibold">
-        <div className="text-xl font-medium text-white">Daily Quotes</div>
+        <div className="text-xl font-medium text-white">Daily Advice</div>
         <p className="text-slate-800" id="quote">
           {props.quote}
         </p>
@@ -56,7 +56,7 @@ function Button({ onClick }) {
         id="btn"
         onClick={onClick}
       >
-        Get a quote
+        Get an advice
       </button>
     </div>
   );
